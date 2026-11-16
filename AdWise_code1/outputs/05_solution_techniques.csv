@@ -1,0 +1,10 @@
+Technique,ROC_AUC,Recall_nonconv,Precision_nonconv
+1. Baseline Gradient Boosting (threshold 0.5),0.817,0.333,0.846
+2. Baseline + threshold tuning (0.80),0.817,0.697,0.5
+"3. Class weights (balanced), threshold 0.5",0.81,0.707,0.393
+4. Random UNDER-sampling (majority cut to minority size),0.803,0.707,0.317
+5. Random OVER-sampling (minority replicated),0.809,0.707,0.412
+6. Feature engineering (4 new features),0.818,0.338,0.859
+"7. Hyper-parameter tuning, threshold 0.5",0.822,0.258,0.879
+8. Tuned model + threshold 0.80,0.822,0.707,0.475
+9. Tuned model + F1-optimal threshold 0.70,0.822,0.626,0.775

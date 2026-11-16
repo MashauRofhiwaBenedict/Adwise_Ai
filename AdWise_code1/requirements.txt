@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+joblib
+nltk
+hmmlearn
+python_speech_features
+SpeechRecognition
+pyaudio        # only for microphone input; if it fails to install, skip it (text chat still works)
+pyttsx3        # optional: bot speaks answers
+tensorflow     # optional, for scripts 08-10 (needs Python 3.10-3.12; without it 08 and 09 use scikit-learn instead)
